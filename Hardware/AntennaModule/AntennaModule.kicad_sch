@@ -1,5 +1,71 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6fea4726-6625-4d37-9d0c-c1a5d08d59ce")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 99.06 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a1a8a49-81e8-4900-a7b3-937741017566")
+		(property "Sheetname" "Front-End"
+			(at 99.06 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Front-End.kicad_sch"
+			(at 99.06 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RFOUT_L1L5" output
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b15ca1c-3ce9-48af-b793-33394e44bba1")
+		)
+		(pin "RFOUT_L2L6" output
+			(at 114.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8c6e24ed-ed98-4025-8059-fbde8809c483")
+		)
+		(instances
+			(project "AntennaModule"
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
