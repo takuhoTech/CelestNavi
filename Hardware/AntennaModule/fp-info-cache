@@ -1,4 +1,4 @@
-23869016773314812
+23874208105184119
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -353,6 +353,13 @@ Battery
 Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
 Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
 battery CR-3032 coin cell vertical
+0
+2
+2
+Battery_extlib
+Battery_Seiko_MS421R
+Reflowable MS Lithium Rechargeable Battery
+Coin Cell Battery RTC
 0
 2
 2
@@ -55313,6 +55320,13 @@ Diode SMPA (DO-221BC)
 0
 2
 2
+Diode_SMD_extlib
+D_US2H
+Diode US2H (SOD-323HE), large-pad cathode, https://toshiba.semicon-storage.com/jp/semiconductor/design-development/package/detail.US2H.html
+Diode US2H (SOD-323HE) CUHS20S30 CUHS20F30 CUHS20S60 CUHS20F60 Toshiba
+0
+2
+2
 Diode_THT
 D_5KPW_P7.62mm_Vertical_AnodeUp
 Diode, 5KPW series, Axial, Vertical, pin pitch=7.62mm, , length*diameter=9*8mm^2, , http://www.diodes.com/_files/packages/8686949.gif
@@ -56941,6 +56955,13 @@ Filter_extlib
 Filter_SAW-6_3.0x3.0mm
 6-pin 3.0 x 3.0mm SAW filter package, https://www.taisaw.com/assets/PDF/TA1985A%20_Rev.1.0_.pdf
 SAW filter diplexer duplexer 6-pin TA1985A
+0
+6
+6
+Filter_extlib
+Filter_SAW-8_3.0x3.0mm
+8-pin 3.0 x 3.0mm SAW filter package, https://www.taisaw.com/assets/PDF/TE0133B%20_Rev.1.0_.pdf
+SAW filter diplexer duplexer 8-pin TE0133B
 0
 6
 6
