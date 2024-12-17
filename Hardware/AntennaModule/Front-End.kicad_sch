@@ -140,6 +140,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_TVS_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS_Small"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.016) (xy 0 1.016) (xy 0 -1.016) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.016) (xy -1.27 -1.016) (xy 1.27 1.016) (xy 1.27 -1.016) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1112,12 +1257,12 @@
 				)
 			)
 		)
-		(symbol "RF_Antenna_extlib:GPDF6010.A"
+		(symbol "GPDF6010.A_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at 0 12.7 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1125,7 +1270,7 @@
 				)
 			)
 			(property "Value" "GPDF6010.A"
-				(at 0 10.16 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1159,6 +1304,14 @@
 					(hide yes)
 				)
 			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "patch antenna"
 				(at 0 0 0)
 				(effects
@@ -1168,69 +1321,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "GPDF6010.A_1_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "GPDF6010.A_1_0_1"
 				(polyline
 					(pts
-						(xy 2.54 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 3.81 -6.35) (xy 6.35 -3.81) (xy 3.81 -1.27) (xy 1.27 -3.81)
+						(xy 5.08 0) (xy 0 -5.08) (xy -5.08 0) (xy 0 5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1240,22 +1334,12 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 3.81 1.27) (xy 6.35 3.81) (xy 3.81 6.35) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			)
+			(symbol "GPDF6010.A_1_1_1"
 				(pin passive line
-					(at -7.62 5.08 0)
-					(length 2.54)
-					(name "HB-1"
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "HB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1271,9 +1355,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "HB-2"
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "HB2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1289,7 +1373,27 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GPDF6010.A_1_2_1"
+				(pin passive line
+					(at -2.54 -5.08 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1307,9 +1411,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "LB-1"
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "LB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1325,9 +1429,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name "LB-2"
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "LB2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2376,10 +2480,28 @@
 		(uuid "023510e4-727d-4615-a94e-c170a5a3642f")
 	)
 	(junction
+		(at 68.58 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb5d157-4f12-4a9f-8e71-df13c1e59dfc")
+	)
+	(junction
+		(at 68.58 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a9d241d-751c-406d-a47a-19713bad613e")
+	)
+	(junction
 		(at 170.18 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e62a3e3-e0fa-4c26-8d2f-51720c60efae")
+	)
+	(junction
+		(at 68.58 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bcb6e98-0dcb-4466-9443-04dfd9ca7631")
 	)
 	(junction
 		(at 170.18 121.92)
@@ -2406,6 +2528,18 @@
 		(uuid "8a57a220-8d49-4722-bb95-3175c06a922a")
 	)
 	(junction
+		(at 66.04 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c4dec2d-c0aa-4bdd-b445-d9a3781fd9ab")
+	)
+	(junction
+		(at 68.58 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "963d4fb1-dc6c-4365-8b90-068c054e6448")
+	)
+	(junction
 		(at 129.54 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2417,6 +2551,12 @@
 		(color 0 0 0 0)
 		(uuid "d4ca3261-6a59-4f1e-8562-7390326ba6a7")
 	)
+	(junction
+		(at 66.04 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd980647-ea35-468c-b808-07159e39aa90")
+	)
 	(wire
 		(pts
 			(xy 137.16 93.98) (xy 177.8 93.98)
@@ -2426,6 +2566,16 @@
 			(type default)
 		)
 		(uuid "152143d1-0ea7-40c0-89d4-c5ca19c5b5a5")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a70a38-6585-4c27-9ac2-16ea7a11b4e6")
 	)
 	(wire
 		(pts
@@ -2446,16 +2596,6 @@
 			(type default)
 		)
 		(uuid "19d1d2c5-af14-48cd-99d7-21ac121a9c63")
-	)
-	(wire
-		(pts
-			(xy 68.58 99.06) (xy 68.58 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b0bb21e-12b5-421a-ac71-d6243752e5a7")
 	)
 	(wire
 		(pts
@@ -2489,6 +2629,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 114.3) (xy 68.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e7d90e-eb77-4f02-88ae-0250e437cf87")
+	)
+	(wire
+		(pts
+			(xy 68.58 88.9) (xy 71.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244c4bb7-d646-45cb-80cb-7021e088b054")
+	)
+	(wire
+		(pts
 			(xy 208.28 101.6) (xy 238.76 101.6)
 		)
 		(stroke
@@ -2496,6 +2656,16 @@
 			(type default)
 		)
 		(uuid "2c734e81-6691-4c2a-b4c6-dbba58296c26")
+	)
+	(wire
+		(pts
+			(xy 66.04 127) (xy 68.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c2ecbe-ded2-474f-9318-99d93b5f7668")
 	)
 	(wire
 		(pts
@@ -2509,23 +2679,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 114.3) (xy 83.82 114.3)
+			(xy 66.04 88.9) (xy 68.58 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ef09705-ae9a-4b68-a535-8e9e4f975fe4")
-	)
-	(wire
-		(pts
-			(xy 68.58 119.38) (xy 83.82 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "568a59e0-b74b-49c2-83d2-32380c0ed945")
+		(uuid "5340e578-8ae5-4313-9d80-47b607cf4283")
 	)
 	(wire
 		(pts
@@ -2536,6 +2696,16 @@
 			(type default)
 		)
 		(uuid "69284f77-fb28-427d-99a7-e41f9f37a8ee")
+	)
+	(wire
+		(pts
+			(xy 68.58 114.3) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69def19a-7014-45eb-9cb1-29a9ff6ef9f0")
 	)
 	(wire
 		(pts
@@ -2559,6 +2729,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 93.98) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8484a069-4011-4712-9c95-1361a7aab4ef")
+	)
+	(wire
+		(pts
 			(xy 76.2 88.9) (xy 83.82 88.9)
 		)
 		(stroke
@@ -2566,16 +2746,6 @@
 			(type default)
 		)
 		(uuid "88c073dd-8934-4a94-8572-578003c11c27")
-	)
-	(wire
-		(pts
-			(xy 66.04 109.22) (xy 68.58 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed7c166-8229-4f50-a4d1-c8aafb4e5926")
 	)
 	(wire
 		(pts
@@ -2589,16 +2759,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 88.9) (xy 71.12 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae4bd7d-61fc-443e-a59b-d095c5e895f4")
-	)
-	(wire
-		(pts
 			(xy 76.2 93.98) (xy 83.82 93.98)
 		)
 		(stroke
@@ -2606,26 +2766,6 @@
 			(type default)
 		)
 		(uuid "9f825923-7d46-42dd-9df9-e948c32cfb31")
-	)
-	(wire
-		(pts
-			(xy 66.04 101.6) (xy 71.12 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a48787d1-1c90-446a-9689-531a137c1e53")
-	)
-	(wire
-		(pts
-			(xy 71.12 101.6) (xy 71.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae19f830-f5be-4e51-8e69-bcaf20090a99")
 	)
 	(wire
 		(pts
@@ -2649,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 101.6) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbe795d-7224-4aab-a814-dc116cdeedf9")
+	)
+	(wire
+		(pts
 			(xy 231.14 129.54) (xy 238.76 129.54)
 		)
 		(stroke
@@ -2659,33 +2809,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 68.58 119.38)
+			(xy 66.04 114.3) (xy 68.58 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d477d602-566b-4dbf-be2b-fc55babac008")
+		(uuid "c94a687d-c2f9-4dae-b4a4-39b51b500f96")
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 71.12 106.68)
+			(xy 66.04 119.38) (xy 66.04 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6f070e8-5b81-4c9e-8fa1-4320887fd0a2")
-	)
-	(wire
-		(pts
-			(xy 66.04 99.06) (xy 68.58 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90c4ad7-7131-45dd-9a84-beb76bf45f30")
+		(uuid "e6acbe70-82e2-457e-bcf2-3abc2cd5b0a2")
 	)
 	(wire
 		(pts
@@ -2699,13 +2839,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 106.68) (xy 71.12 114.3)
+			(xy 68.58 88.9) (xy 68.58 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb45eb23-0351-497b-9725-6b1c9a858467")
+		(uuid "f69f6e67-58b9-48f7-b844-c31ce1144d2e")
+	)
+	(wire
+		(pts
+			(xy 66.04 93.98) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1848b5-d407-4426-a4a1-499ef68fa6df")
 	)
 	(rectangle
 		(start 204.47 128.27)
@@ -2955,7 +3105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD_extlib:R_Vishay_FC0603xxxxxxTxx_0603_1608Metric_1.626x0.813mm"
 			(at 170.18 119.38 0)
 			(effects
 				(font
@@ -3331,6 +3481,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Small")
+		(at 66.04 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bd3b088-b3bb-4460-9224-eef626ddaaae")
+		(property "Reference" "D4"
+			(at 64.77 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AXGD10402KR"
+			(at 64.77 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD_extlib:D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm"
+			(at 66.04 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+			(at 66.04 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3558fef1-2ea5-418f-a9de-291328f38f72")
+		)
+		(pin "2"
+			(uuid "e6ae7a43-a61a-44a0-8999-1ae775426ca7")
+		)
+		(instances
+			(project "AntennaModule"
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 180.34 93.98 90)
 		(unit 1)
@@ -3536,6 +3756,75 @@
 			(project ""
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Small")
+		(at 68.58 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d366fee-d44a-419a-b456-8e059c01d58e")
+		(property "Reference" "D3"
+			(at 69.85 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AXGD10402KR"
+			(at 69.85 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD_extlib:D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95485d47-dbfc-4afd-bf13-5761326774ca")
+		)
+		(pin "2"
+			(uuid "51a9137a-1b8c-4082-ba81-c6f02b5a8812")
+		)
+		(instances
+			(project ""
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3867,6 +4156,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ed425f6-c241-4c26-9d75-28b551c5d64e")
+		(property "Reference" "#PWR031"
+			(at 55.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68c677a4-a6ca-41ec-8850-3b1b38f549a6")
+		)
+		(instances
+			(project "AntennaModule"
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 93.98 90)
 		(mirror x)
@@ -3892,7 +4246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 			(at 73.66 93.98 0)
 			(effects
 				(font
@@ -3936,15 +4290,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 104.14 90)
+		(at 68.58 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "49621569-0368-4aaa-be70-82b18b7dddcb")
-		(property "Reference" "#PWR01"
-			(at 72.39 104.14 0)
+		(uuid "45a5f79d-9160-4134-b719-d3d557f07b4f")
+		(property "Reference" "#PWR042"
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,16 +4307,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 104.14 90)
+			(at 68.58 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 104.14 0)
+			(at 68.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +4324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 104.14 0)
+			(at 68.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 104.14 0)
+			(at 68.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,12 +4342,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a58d99b5-e4eb-4fa2-8cc4-3b5bbac7594e")
+			(uuid "8851f462-e43a-4529-8a95-73919ddf4730")
 		)
 		(instances
-			(project ""
+			(project "AntennaModule"
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
-					(reference "#PWR01")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4095,7 +4448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 			(at 177.8 96.52 0)
 			(effects
 				(font
@@ -4132,6 +4485,75 @@
 			(project "AntennaModule"
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Small")
+		(at 68.58 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b5e9367-6a20-4b1c-b578-89f6bf757cbb")
+		(property "Reference" "D5"
+			(at 69.85 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AXGD10402KR"
+			(at 69.85 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD_extlib:D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm"
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "525cf954-38d7-457d-bdd1-db84c89aa3f4")
+		)
+		(pin "2"
+			(uuid "9e1f6b97-05fe-45b0-b35b-682349f22c3b")
+		)
+		(instances
+			(project "AntennaModule"
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4205,33 +4627,16 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Antenna_extlib:GPDF6010.A")
-		(at 58.42 104.14 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 68.58 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5745fcbe-9e95-48da-897b-e38f9fb59ad0")
-		(property "Reference" "AE1"
-			(at 57.15 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPDF6010.A"
-			(at 57.15 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RF_Antenna_extlib:Taoglas_GPDF6010.A_GNSS"
-			(at 58.42 114.3 0)
+		(uuid "4e8bcd18-63c7-4aef-a1b3-187b3f3e9f00")
+		(property "Reference" "#PWR032"
+			(at 68.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,8 +4644,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
-			(at 58.42 116.84 0)
+		(property "Value" "GND"
+			(at 68.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,8 +4661,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna"
-			(at 58.42 119.38 0)
+		(property "Datasheet" ""
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,24 +4680,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5676949-dfe0-45f4-acfc-feade1345b66")
-		)
-		(pin "2"
-			(uuid "8680ae4a-fcc5-46e5-9196-4b1fc56340de")
-		)
-		(pin "5"
-			(uuid "9d19dca7-9a0d-4cb7-81d5-7872e2dd7e35")
-		)
-		(pin "3"
-			(uuid "5724104e-c1ce-4df5-9750-d722e2f1fb06")
-		)
-		(pin "4"
-			(uuid "d93c2c00-f70d-4099-9713-59276ce51973")
+			(uuid "c567304a-274b-4a89-98ef-fad8fb709935")
 		)
 		(instances
-			(project ""
+			(project "AntennaModule"
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
-					(reference "AE1")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4309,7 +4719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 			(at 208.28 104.14 0)
 			(effects
 				(font
@@ -4417,6 +4827,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b61ac86-26f4-4c8f-b9bd-519a39d3a929")
+		(property "Reference" "#PWR01"
+			(at 55.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b19f23a3-c478-498f-9d60-89ead9c54092")
+		)
+		(instances
+			(project "AntennaModule"
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Filter_extlib:TE0133B")
 		(at 193.04 101.6 0)
 		(unit 1)
@@ -4496,6 +4971,76 @@
 			(project ""
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Small")
+		(at 66.04 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "936f4af7-1e87-4296-a955-f4b6d40d1da2")
+		(property "Reference" "D2"
+			(at 64.77 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AXGD10402KR"
+			(at 64.77 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD_extlib:D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ed63e33-4d84-4626-955f-5b21ccff23f7")
+		)
+		(pin "2"
+			(uuid "ff821ac2-ec3f-430b-b95d-6577120aab23")
+		)
+		(instances
+			(project ""
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4778,6 +5323,87 @@
 		)
 	)
 	(symbol
+		(lib_name "GPDF6010.A_1")
+		(lib_id "RF_Antenna_extlib:GPDF6010.A")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f557c5-6642-4eea-8906-8c687aa8f95e")
+		(property "Reference" "AE2"
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPDF6010.A"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Antenna_extlib:Taoglas_GPDF6010.A_GNSS"
+			(at 58.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
+			(at 58.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30354432-b7f6-4958-9bb6-e1baf4418f0e")
+		)
+		(pin "5"
+			(uuid "3fbf1251-4f8b-49a3-8646-0decf8c9e13e")
+		)
+		(pin "1"
+			(uuid "b6d1b4d9-ff97-4be5-971b-d94dc2968d68")
+		)
+		(pin "3"
+			(uuid "e415be69-bc27-4af6-b811-35d72ececb7f")
+		)
+		(pin "3"
+			(uuid "ec632adb-f7c2-4100-9ae2-888de96b896d")
+		)
+		(pin "4"
+			(uuid "e835ca30-4af5-453a-968d-7d8ea7795c49")
+		)
+		(instances
+			(project ""
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "AE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 142.24 71.12 0)
 		(unit 1)
@@ -4804,7 +5430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -4842,6 +5468,86 @@
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
 					(reference "C4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GPDF6010.A_1")
+		(lib_id "RF_Antenna_extlib:GPDF6010.A")
+		(at 58.42 116.84 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac92bb87-6e1d-4a8b-a455-aafa95a62c12")
+		(property "Reference" "AE1"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPDF6010.A"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Antenna_extlib:Taoglas_GPDF6010.A_GNSS"
+			(at 58.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna"
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30354432-b7f6-4958-9bb6-e1baf4418f0f")
+		)
+		(pin "5"
+			(uuid "3fbf1251-4f8b-49a3-8646-0decf8c9e13f")
+		)
+		(pin "1"
+			(uuid "b6d1b4d9-ff97-4be5-971b-d94dc2968d69")
+		)
+		(pin "3"
+			(uuid "e415be69-bc27-4af6-b811-35d72ececb80")
+		)
+		(pin "3"
+			(uuid "ec632adb-f7c2-4100-9ae2-888de96b896e")
+		)
+		(pin "4"
+			(uuid "e835ca30-4af5-453a-968d-7d8ea7795c4a")
+		)
+		(instances
+			(project ""
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "AE1")
+					(unit 2)
 				)
 			)
 		)
@@ -5148,7 +5854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -5865,7 +6571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -5932,7 +6638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 			(at 73.66 88.9 0)
 			(effects
 				(font
@@ -6069,7 +6775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 			(at 177.8 111.76 0)
 			(effects
 				(font

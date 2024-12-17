@@ -1,4 +1,4 @@
-23874208105184119
+23888085756267810
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -3426,6 +3426,13 @@ Capacitor_SMD
 C_Trimmer_Voltronics_JZ
 trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
  Voltronics JR
+0
+2
+2
+Capacitor_SMD_extlib
+C_Murata_xxx15_0402_1005Metric_1.0x0.5mm
+Capacitor, Murata, 0402 (1005 Metric) (https://search.murata.co.jp/Ceramy/image/img/A01X/G101/JPN/GJM1555C1H4R7WB01-01A.pdf)
+chip capacitor Murata GRM15 GJM15 GQM15
 0
 2
 2
@@ -55321,7 +55328,14 @@ Diode SMPA (DO-221BC)
 2
 2
 Diode_SMD_extlib
-D_US2H
+D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm
+TVS Diode, Littelfuse, AXGD series, 0402 (1005 Metric) (https://www.littelfuse.co.jp/products/polymer-esd-suppressors/xtremeguard-esd-suppressors/axgd/axgd10402kr.aspx)
+chip TVS ESD Diode Littelfuse AXGD
+0
+2
+2
+Diode_SMD_extlib
+D_Toshiba_US2H
 Diode US2H (SOD-323HE), large-pad cathode, https://toshiba.semicon-storage.com/jp/semiconductor/design-development/package/detail.US2H.html
 Diode US2H (SOD-323HE) CUHS20S30 CUHS20F30 CUHS20S60 CUHS20F60 Toshiba
 0
@@ -56963,8 +56977,8 @@ Filter_SAW-8_3.0x3.0mm
 8-pin 3.0 x 3.0mm SAW filter package, https://www.taisaw.com/assets/PDF/TE0133B%20_Rev.1.0_.pdf
 SAW filter diplexer duplexer 8-pin TE0133B
 0
-6
-6
+8
+8
 Filter_extlib
 Filter_SAW-10_1.5x1.1mm
 10-pin 1.5 x 1.1mm SAW filter package, https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5731/TE0149A.pdf
@@ -61477,6 +61491,34 @@ Inductor_SMD_Wurth
 L_Wurth_WE-LQSH-4020
 Semi-Shielded High Saturation Power Inductor, body 4x4mm, https://www.we-online.com/catalog/en/WE-LQSH#/articles/WE-LQSH-4020
 SMT
+0
+2
+2
+Inductor_SMD_extlib
+L_Murata_LQW15ANxxxx00x_0402_1005Metric_1.0x0.5mm
+Inductor, Murata, LQW15A series, 0402 (1005 Metric) (https://search.murata.co.jp/Ceramy/image/img/P02/JLF243A-0050.pdf)
+chip coil inductor Murata LQW15A
+0
+2
+2
+Inductor_SMD_extlib
+L_Murata_LQW15ANxxxx10x_0402_1005Metric_1.0x0.5mm
+Inductor, Murata, LQW15A series, 0402 (1005 Metric) (https://search.murata.co.jp/Ceramy/image/img/P02/JLF243A-0051.pdf)
+chip coil inductor Murata LQW15A
+0
+2
+2
+Inductor_SMD_extlib
+L_Murata_LQW15ANxxxx80x_0402_1005Metric_1.0x0.6mm
+Inductor, Murata, LQW15A series, 0402 (1005 Metric) (https://search.murata.co.jp/Ceramy/image/img/P02/JLF243A-0100.pdf)
+chip coil inductor Murata LQW15A
+0
+2
+2
+Inductor_SMD_extlib
+L_Murata_LQW15AWxxxx80x_0402_1005Metric_1.02x0.61mm
+Inductor, Murata, LQW15A series, 0402 (1005 Metric) (https://search.murata.co.jp/Ceramy/image/img/P02/JLF243A-0161.pdf)
+chip coil inductor Murata LQW15A
 0
 2
 2
@@ -85857,10 +85899,17 @@ coupler rf balun divider C1015J5003AHF C0727J5003AHF
 RF_Converter_extlib
 Xinger_0805_2012Metric-6_Pad0.33x0.41mm
 https://www.ttm.com/en/solutions/rfs-components/xinger-components
-coupler rf balun divider PD0922J5050S2HF DC4759J5020AHF
+coupler rf balun divider PD0922J5050S2HF DC4759J5020AHF FC0603E1000BTBSxx
 0
 6
 6
+RF_GNSS_extlib
+ublox_NEO
+ublox NEO, (https://content.u-blox.com/sites/default/files/NEO-D9C_IntegrationManual_UBX-21031631.pdf)
+GPS GNSS ublox u-blox NEO-F9P NEO-D9C
+0
+24
+24
 RF_GPS
 Linx_RXM-GPS
 GPS Module, Linx (https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf)
@@ -88240,6 +88289,13 @@ Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.
 SMD Shunt Resistor
 0
 4
+2
+Resistor_SMD_extlib
+R_Vishay_FC0603xxxxxxTxx_0603_1608Metric_1.626x0.813mm
+Resistor, Vishay, 0603 (1608 Metric), Intended for use with PD0922J5050S2HF (https://www.vishay.com/en/product/60093/)
+chip resistor Vishay PD0922J5050S2HF FC0603E1000BTBSxx
+0
+2
 2
 Resistor_THT
 R_Array_SIP4
