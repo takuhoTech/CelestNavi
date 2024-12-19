@@ -1257,7 +1257,7 @@
 				)
 			)
 		)
-		(symbol "GPDF6010.A_1"
+		(symbol "RF_Antenna_extlib:GPDF6010.A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1321,7 +1321,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GPDF6010.A_1_0_1"
+			(symbol "GPDF6010.A_0_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 0 -5.08) (xy -5.08 0) (xy 0 5.08) (xy 5.08 0)
@@ -1335,7 +1335,7 @@
 					)
 				)
 			)
-			(symbol "GPDF6010.A_1_1_1"
+			(symbol "GPDF6010.A_1_1"
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 5.08)
@@ -1382,7 +1382,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1391,11 +1391,11 @@
 					)
 				)
 			)
-			(symbol "GPDF6010.A_1_2_1"
+			(symbol "GPDF6010.A_2_1"
 				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "GND"
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "LB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1411,9 +1411,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 5.08)
-					(name "LB1"
+					(name "LB2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1429,9 +1429,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "LB2"
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2498,6 +2498,12 @@
 		(uuid "2e62a3e3-e0fa-4c26-8d2f-51720c60efae")
 	)
 	(junction
+		(at 66.04 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38522053-c2cb-4237-9aa0-6dd8a8929948")
+	)
+	(junction
 		(at 68.58 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2522,16 +2528,16 @@
 		(uuid "6c3cb551-2d45-4437-8a83-af0f1502e3d5")
 	)
 	(junction
+		(at 66.04 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f457e9b-b12f-4b76-a127-986ae8a002bf")
+	)
+	(junction
 		(at 177.8 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a57a220-8d49-4722-bb95-3175c06a922a")
-	)
-	(junction
-		(at 66.04 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c4dec2d-c0aa-4bdd-b445-d9a3781fd9ab")
 	)
 	(junction
 		(at 68.58 114.3)
@@ -2550,12 +2556,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4ca3261-6a59-4f1e-8562-7390326ba6a7")
-	)
-	(junction
-		(at 66.04 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd980647-ea35-468c-b808-07159e39aa90")
 	)
 	(wire
 		(pts
@@ -3344,6 +3344,86 @@
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
 					(reference "#PWR015")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Antenna_extlib:GPDF6010.A")
+		(at 58.42 116.84 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17c0b946-785e-49a5-8844-6f61bd39a782")
+		(property "Reference" "AE1"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPDF6010.A"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Antenna_extlib:Taoglas_GPDF6010.A_GNSS"
+			(at 58.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna"
+			(at 58.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e2dd8930-97b6-4e3a-a140-a946b09c27dd")
+		)
+		(pin "1"
+			(uuid "8602fdc4-98eb-47ba-81d9-8128753be1e7")
+		)
+		(pin "2"
+			(uuid "14a550e0-666b-4c1b-8f6b-7709123e51cc")
+		)
+		(pin "4"
+			(uuid "d3a750d7-0e1f-4180-acd7-d15377172f58")
+		)
+		(pin "3"
+			(uuid "82dc6ba9-1d4c-40fb-b076-1a15f9bfcc13")
+		)
+		(pin "5"
+			(uuid "34cd0169-7c06-4182-a1e6-74e28d2bb0a1")
+		)
+		(instances
+			(project ""
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "AE1")
+					(unit 2)
 				)
 			)
 		)
@@ -5323,87 +5403,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GPDF6010.A_1")
-		(lib_id "RF_Antenna_extlib:GPDF6010.A")
-		(at 58.42 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4f557c5-6642-4eea-8906-8c687aa8f95e")
-		(property "Reference" "AE1"
-			(at 58.42 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPDF6010.A"
-			(at 58.42 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RF_Antenna_extlib:Taoglas_GPDF6010.A_GNSS"
-			(at 58.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
-			(at 58.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna"
-			(at 58.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30354432-b7f6-4958-9bb6-e1baf4418f0e")
-		)
-		(pin "5"
-			(uuid "3fbf1251-4f8b-49a3-8646-0decf8c9e13e")
-		)
-		(pin "1"
-			(uuid "b6d1b4d9-ff97-4be5-971b-d94dc2968d68")
-		)
-		(pin "3"
-			(uuid "e415be69-bc27-4af6-b811-35d72ececb7f")
-		)
-		(pin "3"
-			(uuid "ec632adb-f7c2-4100-9ae2-888de96b896d")
-		)
-		(pin "4"
-			(uuid "e835ca30-4af5-453a-968d-7d8ea7795c49")
-		)
-		(instances
-			(project ""
-				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 142.24 71.12 0)
 		(unit 1)
@@ -5468,86 +5467,6 @@
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
 					(reference "C4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GPDF6010.A_1")
-		(lib_id "RF_Antenna_extlib:GPDF6010.A")
-		(at 58.42 116.84 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac92bb87-6e1d-4a8b-a455-aafa95a62c12")
-		(property "Reference" "AE1"
-			(at 58.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPDF6010.A"
-			(at 58.42 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RF_Antenna_extlib:Taoglas_GPDF6010.A_GNSS"
-			(at 58.42 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
-			(at 58.42 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna"
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30354432-b7f6-4958-9bb6-e1baf4418f0f")
-		)
-		(pin "5"
-			(uuid "3fbf1251-4f8b-49a3-8646-0decf8c9e13f")
-		)
-		(pin "1"
-			(uuid "b6d1b4d9-ff97-4be5-971b-d94dc2968d69")
-		)
-		(pin "3"
-			(uuid "e415be69-bc27-4af6-b811-35d72ececb80")
-		)
-		(pin "3"
-			(uuid "ec632adb-f7c2-4100-9ae2-888de96b896e")
-		)
-		(pin "4"
-			(uuid "e835ca30-4af5-453a-968d-7d8ea7795c4a")
-		)
-		(instances
-			(project ""
-				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
-					(reference "AE1")
-					(unit 2)
 				)
 			)
 		)
@@ -5891,6 +5810,86 @@
 			(project ""
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Antenna_extlib:GPDF6010.A")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a6bb71-abd4-4f11-bcb5-a18ca01bce6c")
+		(property "Reference" "AE1"
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPDF6010.A"
+			(at 58.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Antenna_extlib:Taoglas_GPDF6010.A_GNSS"
+			(at 58.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.taoglas.com/datasheets/GPDF6010.A.pdf"
+			(at 58.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Passive All-band High Precision GNSS Stacked Dual Pin Dual Feed Patch Antenna"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e2dd8930-97b6-4e3a-a140-a946b09c27dd")
+		)
+		(pin "1"
+			(uuid "8602fdc4-98eb-47ba-81d9-8128753be1e7")
+		)
+		(pin "2"
+			(uuid "14a550e0-666b-4c1b-8f6b-7709123e51cc")
+		)
+		(pin "4"
+			(uuid "d3a750d7-0e1f-4180-acd7-d15377172f58")
+		)
+		(pin "3"
+			(uuid "82dc6ba9-1d4c-40fb-b076-1a15f9bfcc13")
+		)
+		(pin "5"
+			(uuid "34cd0169-7c06-4182-a1e6-74e28d2bb0a1")
+		)
+		(instances
+			(project ""
+				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
