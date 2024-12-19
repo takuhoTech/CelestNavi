@@ -3173,7 +3173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_extlib:L_Murata_LQW15ANxxxx80x_0402_1005Metric_1.0x0.6mm"
 			(at 213.36 129.54 0)
 			(effects
 				(font
@@ -3241,7 +3241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_extlib:L_Murata_LQW15ANxxxx80x_0402_1005Metric_1.0x0.6mm"
 			(at 119.38 119.38 0)
 			(effects
 				(font
@@ -3438,7 +3438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_extlib:L_Murata_LQW15ANxxxx80x_0402_1005Metric_1.0x0.6mm"
 			(at 180.34 109.22 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_extlib:L_Murata_LQW15ANxxxx80x_0402_1005Metric_1.0x0.6mm"
 			(at 180.34 93.98 0)
 			(effects
 				(font
@@ -4379,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_extlib:L_Murata_LQW15ANxxxx80x_0402_1005Metric_1.0x0.6mm"
 			(at 119.38 93.98 0)
 			(effects
 				(font
@@ -4584,7 +4584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD_extlib:L_Murata_LQW15ANxxxx80x_0402_1005Metric_1.0x0.6mm"
 			(at 205.74 101.6 0)
 			(effects
 				(font
@@ -5333,7 +5333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f557c5-6642-4eea-8906-8c687aa8f95e")
-		(property "Reference" "AE2"
+		(property "Reference" "AE1"
 			(at 58.42 81.28 0)
 			(effects
 				(font
@@ -5397,7 +5397,7 @@
 		(instances
 			(project ""
 				(path "/6fea4726-6625-4d37-9d0c-c1a5d08d59ce/6a1a8a49-81e8-4900-a7b3-937741017566"
-					(reference "AE2")
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -6706,7 +6706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -6973,7 +6973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 88.9 0)
 			(effects
 				(font
