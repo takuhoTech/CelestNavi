@@ -2492,12 +2492,6 @@
 		(uuid "2a9d241d-751c-406d-a47a-19713bad613e")
 	)
 	(junction
-		(at 170.18 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e62a3e3-e0fa-4c26-8d2f-51720c60efae")
-	)
-	(junction
 		(at 66.04 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2510,10 +2504,10 @@
 		(uuid "3bcb6e98-0dcb-4466-9443-04dfd9ca7631")
 	)
 	(junction
-		(at 170.18 121.92)
+		(at 170.18 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60f2535c-9373-4e8b-81e8-a09619b7d944")
+		(uuid "639242c6-75b2-4caa-a165-d0bf847301fc")
 	)
 	(junction
 		(at 223.52 121.92)
@@ -2550,6 +2544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c40105b3-eb78-4c60-9505-070a92949961")
+	)
+	(junction
+		(at 170.18 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c946460a-25ce-44b2-bcee-6353571d5928")
 	)
 	(junction
 		(at 129.54 111.76)
@@ -2669,16 +2669,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 121.92) (xy 170.18 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b5a6aa9-977d-49cc-b840-2831f0931b29")
-	)
-	(wire
-		(pts
 			(xy 66.04 88.9) (xy 68.58 88.9)
 		)
 		(stroke
@@ -2686,6 +2676,16 @@
 			(type default)
 		)
 		(uuid "5340e578-8ae5-4313-9d80-47b607cf4283")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 170.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551efe98-b03d-4781-b3f7-eb6f07a9fbb6")
 	)
 	(wire
 		(pts
@@ -2716,6 +2716,16 @@
 			(type default)
 		)
 		(uuid "739cff09-7d8a-4fda-b890-17aa91487326")
+	)
+	(wire
+		(pts
+			(xy 167.64 116.84) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bde4511-ec04-4715-95af-af2887170034")
 	)
 	(wire
 		(pts
@@ -2776,16 +2786,6 @@
 			(type default)
 		)
 		(uuid "b6a84b8e-97f7-41c6-977d-9f49064b2bb8")
-	)
-	(wire
-		(pts
-			(xy 167.64 116.84) (xy 170.18 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb54cf0d-a90d-4d0a-b599-a8f228cc08d8")
 	)
 	(wire
 		(pts
@@ -3033,6 +3033,17 @@
 			)
 		)
 		(uuid "10899cc8-49ba-4d0d-a362-e39386832c2c")
+	)
+	(text "パワーディバイダの接続は必要に応じて逆にする\nハイブリッドカプラも反転可能"
+		(exclude_from_sim no)
+		(at 55.88 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "181e94f3-96da-4343-806b-578ed18540e4")
 	)
 	(text "アンテナからのESD対策にTVSダイオードが必要なのかどうか考える"
 		(exclude_from_sim no)
@@ -3765,6 +3776,7 @@
 	(symbol
 		(lib_id "RF_Converter_extlib:PD0922J5050S2HF")
 		(at 157.48 119.38 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3772,7 +3784,7 @@
 		(dnp no)
 		(uuid "28761708-db3b-41fc-a89e-e56718ab3d30")
 		(property "Reference" "U5"
-			(at 157.48 110.49 0)
+			(at 157.48 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3792,7 @@
 			)
 		)
 		(property "Value" "PD0922J5050S2HF"
-			(at 157.48 113.03 0)
+			(at 157.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3800,7 @@
 			)
 		)
 		(property "Footprint" "RF_Converter_extlib:Xinger_0805_2012Metric-6_Pad0.33x0.41mm"
-			(at 157.48 134.62 0)
+			(at 157.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3809,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.ttm.com/repository/products/wireless-xinger/power-dividers/PD0922J5050S2HF/PD0922J5050S2HF.pdf"
-			(at 157.48 137.16 0)
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3818,7 @@
 			)
 		)
 		(property "Description" "0.95-2.15GHz Wilkinson Power Divider, Xinger 0805"
-			(at 157.48 139.7 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,22 +5881,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "e2dd8930-97b6-4e3a-a140-a946b09c27dd")
+			(uuid "e2dd8930-97b6-4e3a-a140-a946b09c27de")
 		)
 		(pin "1"
-			(uuid "8602fdc4-98eb-47ba-81d9-8128753be1e7")
+			(uuid "8602fdc4-98eb-47ba-81d9-8128753be1e8")
 		)
 		(pin "2"
-			(uuid "14a550e0-666b-4c1b-8f6b-7709123e51cc")
+			(uuid "14a550e0-666b-4c1b-8f6b-7709123e51cd")
 		)
 		(pin "4"
-			(uuid "d3a750d7-0e1f-4180-acd7-d15377172f58")
+			(uuid "d3a750d7-0e1f-4180-acd7-d15377172f59")
 		)
 		(pin "3"
-			(uuid "82dc6ba9-1d4c-40fb-b076-1a15f9bfcc13")
+			(uuid "82dc6ba9-1d4c-40fb-b076-1a15f9bfcc14")
 		)
 		(pin "5"
-			(uuid "34cd0169-7c06-4182-a1e6-74e28d2bb0a1")
+			(uuid "34cd0169-7c06-4182-a1e6-74e28d2bb0a2")
 		)
 		(instances
 			(project ""
@@ -6335,7 +6347,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 127 0)
+		(at 157.48 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6343,7 +6355,7 @@
 		(dnp no)
 		(uuid "d144d829-0524-4e59-9433-246cc7e6aa61")
 		(property "Reference" "#PWR014"
-			(at 157.48 133.35 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 130.81 0)
+			(at 157.48 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 127 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 127 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 127 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
