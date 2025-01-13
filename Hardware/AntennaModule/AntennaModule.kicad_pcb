@@ -3039,7 +3039,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "63606cfe-271f-486c-aed2-340c4420a8ff")
-		(at 148.73 87.935 90)
+		(at 149.205 87.935 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -5395,7 +5395,7 @@
 	(footprint "Diode_SMD_extlib:D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm"
 		(layer "F.Cu")
 		(uuid "871c9150-ce24-4ae5-b0ca-df8d252b0551")
-		(at 148.5776 93.65)
+		(at 146.6726 93.904)
 		(descr "TVS Diode, Littelfuse, AXGD series, 0402 (1005 Metric) (https://www.littelfuse.co.jp/products/polymer-esd-suppressors/xtremeguard-esd-suppressors/axgd/axgd10402kr.aspx)")
 		(tags "chip TVS ESD Diode Littelfuse AXGD")
 		(property "Reference" "D2"
@@ -6116,7 +6116,7 @@
 	(footprint "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 		(layer "F.Cu")
 		(uuid "96c9bb93-280f-4f47-a8d8-83216e59969a")
-		(at 152.54 92.38 90)
+		(at 153.81 92.634 90)
 		(descr "Capacitor, Murata, 0402 (1005 Metric) (https://search.murata.co.jp/Ceramy/image/img/A01X/G101/JPN/GJM1555C1H4R7WB01-01A.pdf)")
 		(tags "chip capacitor Murata GRM15 GJM15 GQM15")
 		(property "Reference" "C1"
@@ -6846,7 +6846,7 @@
 	(footprint "Capacitor_SMD_extlib:C_Murata_xxx15_0402_1005Metric_1.0x0.5mm"
 		(layer "F.Cu")
 		(uuid "a59631da-9e05-47f0-8545-9cc3f34a1ca0")
-		(at 148.095 92.38 90)
+		(at 146.19 92.634 90)
 		(descr "Capacitor, Murata, 0402 (1005 Metric) (https://search.murata.co.jp/Ceramy/image/img/A01X/G101/JPN/GJM1555C1H4R7WB01-01A.pdf)")
 		(tags "chip capacitor Murata GRM15 GJM15 GQM15")
 		(property "Reference" "C2"
@@ -8316,7 +8316,7 @@
 	(footprint "Diode_SMD_extlib:D_Littelfuse_AXGD10402KR_0402_1005Metric_1.02x0.51mm"
 		(layer "F.Cu")
 		(uuid "b6e4c17a-a1ca-4be2-b402-69b9dcfffdff")
-		(at 152.0574 93.65)
+		(at 153.3274 93.904)
 		(descr "TVS Diode, Littelfuse, AXGD series, 0402 (1005 Metric) (https://www.littelfuse.co.jp/products/polymer-esd-suppressors/xtremeguard-esd-suppressors/axgd/axgd10402kr.aspx)")
 		(tags "chip TVS ESD Diode Littelfuse AXGD")
 		(property "Reference" "D3"
@@ -14023,7 +14023,50 @@
 	)
 	(gr_poly
 		(pts
-			(xy 150.475 112.190001) (xy 151.115 112.190001) (xy 151.115 111.1252) (xy 150.475 111.1252)
+			(xy 150.475001 110.300001) (xy 150.825 110.300001) (xy 150.825 110.135) (xy 151.08 109.88) (xy 151.08 109.525)
+			(xy 150.475 109.524999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "925bb717-8921-4c9b-b685-9b27336327c5")
+	)
+	(gr_poly
+		(pts
+			(xy 150.475001 90.334999) (xy 150.825 90.334999) (xy 150.825 90.5) (xy 151.08 90.755) (xy 151.08 91.11)
+			(xy 150.475 91.110001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "a27509aa-2249-44ef-97de-4885ab36f408")
+	)
+	(gr_poly
+		(pts
+			(xy 149.524999 110.300001) (xy 149.175 110.300001) (xy 149.175 110.135) (xy 148.92 109.88) (xy 148.92 109.525)
+			(xy 149.525 109.524999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "ab93e829-3d29-4779-a86d-6fe03d8599a0")
+	)
+	(gr_poly
+		(pts
+			(xy 150.475 112.190001) (xy 151.115 112.190001) (xy 151.115 111.745) (xy 150.825 111.455) (xy 150.825 111.289999)
+			(xy 150.475 111.289999)
 		)
 		(stroke
 			(width 0)
@@ -14032,7 +14075,63 @@
 		(fill solid)
 		(layer "F.Cu")
 		(net 35)
-		(uuid "ec400fc8-9b5f-409a-8983-6278a19f20bd")
+		(uuid "b29684a4-1607-4c31-84d2-dd7be7de670a")
+	)
+	(gr_poly
+		(pts
+			(xy 150.475001 89.345001) (xy 150.825 89.345001) (xy 150.825 89.18) (xy 151.08 88.925) (xy 151.08 88.57)
+			(xy 150.475 88.569999)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "b78a7ee4-d5cb-4b17-b953-3c76cf0d558f")
+	)
+	(gr_poly
+		(pts
+			(xy 149.524999 90.334999) (xy 149.175 90.334999) (xy 149.175 90.5) (xy 148.92 90.755) (xy 148.92 91.11)
+			(xy 149.525 91.110001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "bce81f64-a4b8-43c6-9d71-68147ac3988e")
+	)
+	(gr_poly
+		(pts
+			(xy 149.524999 111.289999) (xy 149.175 111.289999) (xy 149.175 111.455) (xy 148.92 111.71) (xy 148.92 112.065)
+			(xy 149.525 112.065001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 28)
+		(uuid "e3c071f4-21a7-4a9d-9253-4ea11db897a8")
+	)
+	(gr_poly
+		(pts
+			(xy 149.525 88.444999) (xy 148.885 88.444999) (xy 148.885 88.89) (xy 149.175 89.18) (xy 149.175 89.345001)
+			(xy 149.525 89.345001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "e3d9dbf3-b341-497e-8edf-ad8d8815db3b")
 	)
 	(gr_line
 		(start 148.73 115.24)
@@ -14363,6 +14462,16 @@
 		)
 		(layer "Cmts.User")
 		(uuid "e90e6e25-8979-4e2a-993b-a44b20348ee9")
+	)
+	(gr_line
+		(start 151.016 110.16)
+		(end 155.08 110.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "e9185412-b2d5-42e4-af20-d2bc323e5c1a")
 	)
 	(gr_line
 		(start 210 101.52)
@@ -15690,6 +15799,18 @@
 			(justify left top)
 		)
 	)
+	(gr_text "-(0.605-0.35)/2\nカプラのパッドX位置から伝送線路X位置のオフセット"
+		(at 132.1175 126.67 0)
+		(layer "Cmts.User")
+		(uuid "b40002d1-e0a7-456d-b168-209b244a8166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "0.035 mm"
 		(at 291.107143 105.876 0)
 		(layer "Cmts.User")
@@ -16231,37 +16352,20 @@
 		)
 	)
 	(segment
-		(start 164.605 111.3)
-		(end 164.605 113.335)
-		(width 0.6)
+		(start 150.7775 87.935)
+		(end 150.7775 88.57)
+		(width 0.605)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "f72c7da1-2003-469e-8db4-1624309baead")
+	)
+	(segment
+		(start 149.2225 112.065)
+		(end 149.2225 112.7)
+		(width 0.605)
 		(layer "F.Cu")
 		(net 28)
-		(uuid "7c6bc801-606d-4a0a-8f8d-b1f218927640")
-	)
-	(segment
-		(start 169.05 112.7)
-		(end 169.05 110.16)
-		(width 0.64)
-		(layer "F.Cu")
-		(net 52)
-		(uuid "6f52c3e0-3cda-4592-85c2-b4433d6864b1")
-	)
-	(segment
-		(start 173.21 115.24)
-		(end 171.59 115.24)
-		(width 0.64)
-		(layer "F.Cu")
-		(net 52)
-		(uuid "de8ed032-b03f-4eb6-b0ef-1af77f1dad76")
-	)
-	(arc
-		(start 171.59 115.24)
-		(mid 169.793949 114.496051)
-		(end 169.05 112.7)
-		(width 0.64)
-		(layer "F.Cu")
-		(net 52)
-		(uuid "af3374c8-7e11-429c-9c15-32bf2feb8a4f")
+		(uuid "585483b8-8f51-4238-b821-d6f3c2841110")
 	)
 	(group "group-boardCharacteristics"
 		(uuid "7df5109a-4ae0-40e9-b702-1127f8ca5318")
